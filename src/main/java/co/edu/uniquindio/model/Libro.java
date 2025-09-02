@@ -16,4 +16,5 @@ public class Libro {
     public String getTitulo() { return titulo; }
     public boolean isDisponible() { return disponible; }
     public void setDisponible(boolean disponible) { this.disponible = disponible; }
+
 }
