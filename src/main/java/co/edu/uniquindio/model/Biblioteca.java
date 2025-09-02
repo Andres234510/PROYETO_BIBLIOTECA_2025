@@ -19,4 +19,7 @@ public class Biblioteca {
     public void agregarLibro(Libro libro) { libros.add(libro); }
     public void agregarUsuario(Usuario usuario) { usuarios.add(usuario); }
     public void registrarPrestamo(Prestamo prestamo) { prestamos.add(prestamo); }
+    public List<Bibliotecario> getBibliotecarios() { return bibliotecarios; }
+    public void agregarBibliotecario( Bibliotecario bibliotecario){ bibliotecarios.add(bibliotecario);}
+
 }

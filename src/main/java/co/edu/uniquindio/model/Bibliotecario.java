@@ -12,6 +12,17 @@ public class Bibliotecario extends Empleado implements IGestionInventario {
         System.out.println("Gestionando libro: " + libro.getTitulo());
     }
 
+    @Override
+    public void agregarLibro(Libro libro) {
+
+
+    }
+
+    @Override
+    public void eliminarLibro(Libro libro) {
+
+    }
+
     public void gestionarPrestamo(Prestamo prestamo) {
         System.out.println("Gestionando préstamo de: " + prestamo.getLibroAsociado().getTitulo());
     }
